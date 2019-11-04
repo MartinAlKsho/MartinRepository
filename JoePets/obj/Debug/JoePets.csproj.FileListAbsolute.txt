@@ -1,0 +1,30 @@
+C:\Users\Martin\source\repos\JoePets\JoePets\bin\Debug\JoePets.exe.config
+C:\Users\Martin\source\repos\JoePets\JoePets\bin\Debug\JoePets.exe
+C:\Users\Martin\source\repos\JoePets\JoePets\bin\Debug\JoePets.pdb
+C:\Users\Martin\source\repos\JoePets\JoePets\obj\Debug\JoePets.csprojAssemblyReference.cache
+C:\Users\Martin\source\repos\JoePets\JoePets\obj\Debug\MainWindow.g.cs
+C:\Users\Martin\source\repos\JoePets\JoePets\obj\Debug\App.g.cs
+C:\Users\Martin\source\repos\JoePets\JoePets\obj\Debug\JoePets_MarkupCompile.cache
+C:\Users\Martin\source\repos\JoePets\JoePets\obj\Debug\JoePets_MarkupCompile.lref
+C:\Users\Martin\source\repos\JoePets\JoePets\obj\Debug\MainWindow.baml
+C:\Users\Martin\source\repos\JoePets\JoePets\obj\Debug\JoePets.g.resources
+C:\Users\Martin\source\repos\JoePets\JoePets\obj\Debug\JoePets.Properties.Resources.resources
+C:\Users\Martin\source\repos\JoePets\JoePets\obj\Debug\JoePets.csproj.GenerateResource.cache
+C:\Users\Martin\source\repos\JoePets\JoePets\obj\Debug\JoePets.csproj.CoreCompileInputs.cache
+C:\Users\Martin\source\repos\JoePets\JoePets\obj\Debug\JoePets.exe
+C:\Users\Martin\source\repos\JoePets\JoePets\obj\Debug\JoePets.pdb
+D:\software dev\repos\JoePets\JoePets\bin\Debug\JoePets.exe.config
+D:\software dev\repos\JoePets\JoePets\bin\Debug\JoePets.exe
+D:\software dev\repos\JoePets\JoePets\bin\Debug\JoePets.pdb
+D:\software dev\repos\JoePets\JoePets\obj\Debug\JoePets.csprojAssemblyReference.cache
+D:\software dev\repos\JoePets\JoePets\obj\Debug\MainWindow.g.cs
+D:\software dev\repos\JoePets\JoePets\obj\Debug\App.g.cs
+D:\software dev\repos\JoePets\JoePets\obj\Debug\JoePets_MarkupCompile.cache
+D:\software dev\repos\JoePets\JoePets\obj\Debug\JoePets_MarkupCompile.lref
+D:\software dev\repos\JoePets\JoePets\obj\Debug\MainWindow.baml
+D:\software dev\repos\JoePets\JoePets\obj\Debug\JoePets.g.resources
+D:\software dev\repos\JoePets\JoePets\obj\Debug\JoePets.Properties.Resources.resources
+D:\software dev\repos\JoePets\JoePets\obj\Debug\JoePets.csproj.GenerateResource.cache
+D:\software dev\repos\JoePets\JoePets\obj\Debug\JoePets.csproj.CoreCompileInputs.cache
+D:\software dev\repos\JoePets\JoePets\obj\Debug\JoePets.exe
+D:\software dev\repos\JoePets\JoePets\obj\Debug\JoePets.pdb

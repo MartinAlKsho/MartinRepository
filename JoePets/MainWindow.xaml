@@ -1,0 +1,52 @@
+﻿    <!--My Name is Martin Al ksho-->
+    <Window x:Class="JoePets.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:JoePets"
+        mc:Ignorable="d"
+        Title="JoePets" Height="600" Width="1000">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"></RowDefinition>
+            <RowDefinition Height="*"></RowDefinition>
+            <RowDefinition Height="*"></RowDefinition>
+            <RowDefinition Height="*"></RowDefinition>
+            <RowDefinition Height="*"></RowDefinition>
+            <RowDefinition Height="*"></RowDefinition>
+            <RowDefinition Height="*"></RowDefinition>
+            <RowDefinition Height="*"></RowDefinition>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"></ColumnDefinition>
+            <ColumnDefinition Width="*"></ColumnDefinition>
+            <ColumnDefinition Width="*"></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+        <Label Content="JoesPetsShop" FontSize="30" Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="3" BorderBrush="Aquamarine" BorderThickness="2" HorizontalContentAlignment="Center"></Label>
+        
+        <Label Content="Crickets" Margin="10" Grid.Row="1" Grid.Column="0" FontSize="35"  HorizontalContentAlignment="Center"></Label>
+        <TextBox Name="cricketsAmount" Text="{Binding CricketsAmount}" Grid.Row="1" Grid.Column="1" FontSize="35" Margin="10" HorizontalContentAlignment="Right"></TextBox>
+        <Label Name="cricketFees" Content="{Binding CricketFees }" Grid.Row="1" Grid.Column="2" FontSize="35" Margin="10" HorizontalContentAlignment="Right"></Label>
+        
+        <Label Content="Worms" Margin="10" Grid.Row="2" Grid.Column="0" FontSize="35"  HorizontalContentAlignment="Center"></Label>
+        <TextBox Name="wormsAmount" Text="{Binding WormsAmount }" Grid.Row="2" Grid.Column="1" FontSize="35" Margin="10" HorizontalContentAlignment="Right"></TextBox>
+        <Label Name="wormsFees" Content="{Binding WormsFees}" Grid.Row="2" Grid.Column="2" FontSize="35" Margin="10" HorizontalContentAlignment="Right"></Label>
+
+        <Label Content="Mice" Margin="10" Grid.Row="3" Grid.Column="0" FontSize="35"  HorizontalContentAlignment="Center"></Label>
+        <TextBox Name="miceAmount" Text="{Binding MiceAmount}" Grid.Row="3" Grid.Column="1" FontSize="35" Margin="10" HorizontalContentAlignment="Right"></TextBox>
+        <Label Name="miceFees"  Content="{Binding MiceFees}" Grid.Row="3" Grid.Column="2" FontSize="35" Margin="10" HorizontalContentAlignment="Right"></Label>
+
+        <CheckBox Content="AdditionFees" IsChecked="{Binding Addition}" Margin="10" Grid.Row="4" Grid.Column="0" FontSize="35"  HorizontalContentAlignment="Center"></CheckBox>
+        <Label Name="lbAddFees" Content="{Binding AddFees }" ContentStringFormat="c" Margin="10" Grid.Row="4" Grid.Column="2" FontSize="35"  HorizontalContentAlignment="Center"></Label>
+
+        <Label Content="Tax" Margin="10" Grid.Row="5" Grid.Column="0" FontSize="35"  HorizontalContentAlignment="Center"></Label>
+        <Label Name="lbTax"  Margin="10" Content="{Binding Tax}" Grid.Row="5" Grid.Column="2" FontSize="35"  HorizontalContentAlignment="Center"></Label>
+
+        <Label Content="TotalCharges" Margin="10" Grid.Row="6" Grid.Column="1" FontSize="35"  HorizontalContentAlignment="Center"></Label>
+        <Label Name="lbtotalCharges" Content="{Binding Total}" Margin="10" Grid.Row="6" Grid.Column="2" FontSize="35"  HorizontalContentAlignment="Center"></Label>
+
+        <Button Name="Calc" Content="Calculation" Margin="10" Grid.Row="7" Grid.Column="1" FontSize="20" Click="Calc_Click"></Button>
+        
+    </Grid>
+</Window>
